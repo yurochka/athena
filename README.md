@@ -1,6 +1,6 @@
 # athena
 Some SKILL scripts during analog integrated circuit design
 
-* schmigrate.il
+* processmigrate.il
 
-This script migrates all the schematic views in one library to a new process.
+This script migrates all the views in one library to a new process.

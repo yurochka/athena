@@ -15,7 +15,9 @@ foreach( cell cells
             dbClose(newMaster)
           ) ;; when
         ) ;; when
-      ) ;; foreach inst 
+      ) ;; foreach inst
+      dbSave(cv)
+      dbClose(cv)
     ) ;; when
   ) ;; foreach view
 ) ;; foreach cell

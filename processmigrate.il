@@ -16,6 +16,7 @@ foreach( cell cells
           ) ;; when
         ) ;; when
       ) ;; foreach inst
+      dbCheck(cv)
       dbSave(cv)
       dbClose(cv)
     ) ;; when
